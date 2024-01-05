@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class largest_in_array {
 
     public static int getLargest(int numbers[]){

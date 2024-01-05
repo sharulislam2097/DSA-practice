@@ -7,6 +7,8 @@ public class N_Char {
 
         char c = sc.next().charAt(0);
 
+        sc.close();
+
         if (Character.isLowerCase(c)) {
 
             System.out.println(Character.toUpperCase(c));

@@ -9,12 +9,13 @@ public class max_subarraysum1 {
                 int end = j;
                 cursum=0;
                 for(int k=start ;k<=end; k++){
+                    // System.out.print(numbers[k]+" ");
                     cursum+=numbers[k];
                 }
-                System.out.println(cursum);
+                System.out.println("="+cursum);
                 if(maxsum<cursum){
                     maxsum=cursum;
-                }
+                } 
                 
             }
             System.out.println();

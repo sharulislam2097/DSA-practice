@@ -12,6 +12,7 @@ public class L_The_Brothers {
         String S2 = sc.next();
 
         sc.close();
+        
 
         if (S1.equals(S2)) {
             System.out.println("ARE Brothers");

@@ -10,7 +10,7 @@ public class max_subarraysum2 {
 
         prefix[0] = numbers[0];
 
-        for (int i = 0; i < prefix.length; i++) {
+        for (int i = 1; i < prefix.length; i++) {
             prefix[i] = prefix[i - 1] + numbers[i];
         }
 

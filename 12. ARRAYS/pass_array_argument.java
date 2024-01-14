@@ -10,7 +10,7 @@ public class pass_array_argument {
 
         update(marks);
 
-        for(int i=0 ; i<marks.length ; i++){
+        for(int i=0 ; i<marks.length ; i++){ 
             System.out.println(marks[i]);
         }
     }

@@ -22,7 +22,7 @@ public class reverse_an_array {
 
         reverse(numbers);
         
-        for(int i=0 ; i<numbers.length ;i++){
+        for(int i=0 ; i<numbers.length ;i++){ 
             System.out.print(numbers[i]+" ");
         }
     }

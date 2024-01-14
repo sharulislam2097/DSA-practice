@@ -20,7 +20,7 @@ public class linear_search {
         if(index == -1){
             System.out.println("not found");
         }else{
-            System.out.println("key found at index :"+index);
+            System.out.println("key found at index :"+index); 
         }
     }
 }

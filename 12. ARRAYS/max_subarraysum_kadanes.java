@@ -17,7 +17,7 @@ public class max_subarraysum_kadanes {
         System.out.println(maxsum);
 
     }
-    public static void main(String[] args){
+    public static void main(String[] args){ 
         int nums[]={-1,-2,-3,-4,-5};
         kadanes(nums);
     }

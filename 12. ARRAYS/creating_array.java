@@ -17,7 +17,7 @@ public class creating_array {
 
         // if array size declared and if there is no value in array then all values will be filled with zero in java
         for(int i=0 ; i<marks.length; i++){
-            System.out.print(marks[i]);
+            System.out.print(marks[i]); 
         }
 
        

@@ -22,7 +22,7 @@ public class print_subarray {
                 }
 
             }
-            System.out.print("min val:" + min + " max val:" + max);
+            System.out.print("min val:" + min + " max val:" + max); 
             System.out.println();
         }
     }

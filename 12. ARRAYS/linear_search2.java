@@ -23,6 +23,6 @@ public class linear_search2 {
         }
 
         System.out.println("Found at index: " + index);
-    }
+    } 
 
 }

@@ -20,7 +20,7 @@ public class max_subarraysum1 {
             }
             System.out.println();
         }
-        System.out.println("maximum sum :"+maxsum);
+        System.out.println("maximum sum :"+maxsum); 
     }
     public static void main(String[] args){
         int numbers[]={1,-2,6,-1,3};

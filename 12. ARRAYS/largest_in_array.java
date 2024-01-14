@@ -26,7 +26,7 @@ public class largest_in_array {
 
         int large=getLargest(numbers);
 
-        System.out.println("Largest among array item is: "+large);
+        System.out.println("Largest among array item is: "+large); 
     }
 
 

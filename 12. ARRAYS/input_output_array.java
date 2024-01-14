@@ -14,7 +14,7 @@ public class input_output_array {
         System.out.println("marks 1 :"+marks[0]);  //treat marks[]  as a variable 
         System.out.println("marks 2 :"+marks[1]);
         System.out.println("marks 3 :"+marks[2]);
-        System.out.println("marks 4 :"+marks[3]);
+        System.out.println("marks 4 :"+marks[3]); 
 
 
 

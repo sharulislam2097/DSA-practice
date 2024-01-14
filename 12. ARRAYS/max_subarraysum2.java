@@ -19,7 +19,7 @@ public class max_subarraysum2 {
             for (int j = i; j < numbers.length; j++) {
                 int end = j;
 
-                cursum = start == 0 ? prefix[end] : prefix[end] - prefix[start - 1];
+                cursum = start == 0 ? prefix[end] : prefix[end] - prefix[start - 1]; 
 
                 if (maxsum < cursum) {
                     maxsum = cursum;

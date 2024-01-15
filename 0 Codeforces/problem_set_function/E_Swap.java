@@ -2,7 +2,7 @@ import java.util.*;
 
 public class E_Swap {
 
-    public static void swapnum(int x, int y) {
+    public static void swapnum(int x, int y) { 
 
         int temp = x;
         x = y;

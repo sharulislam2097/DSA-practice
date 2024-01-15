@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class H_N_Times {
 
-    public static void n_times(int t, Scanner scn) {
+    public static void n_times(int t, Scanner scn) { 
         for (int i = 1; i <= t; i++) {
             int n = scn.nextInt();
             char c = scn.next().charAt(0);

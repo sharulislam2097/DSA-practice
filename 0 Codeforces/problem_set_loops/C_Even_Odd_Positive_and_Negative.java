@@ -2,7 +2,7 @@ import java.util.*;
 
 public class C_Even_Odd_Positive_and_Negative {
 
-    public static void main(String[] args) {
+    public static void main(String[]  args) {
         Scanner sc = new Scanner(System.in);
 
         int N = sc.nextInt();

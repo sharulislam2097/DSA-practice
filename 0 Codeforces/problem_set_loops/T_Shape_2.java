@@ -16,7 +16,7 @@ public class T_Shape_2 {
                 System.out.print("*");
             }
 
-            System.out.println();
+            System.out.println(); 
         }
         
         sc.close();

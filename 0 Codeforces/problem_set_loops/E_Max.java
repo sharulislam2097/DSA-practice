@@ -10,7 +10,7 @@ public class E_Max {
         int max = 0;
 
         for (int i = 1; i <= N; i++) {
-            int a = sc.nextInt();
+            int a = sc.nextInt();  
 
             if (a > max) {
                 max = a;

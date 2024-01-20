@@ -14,7 +14,7 @@ public class P_Shape_1 {
             System.out.println();
         }
 
-        sc.close();
+        sc.close(); 
     }
 
 }

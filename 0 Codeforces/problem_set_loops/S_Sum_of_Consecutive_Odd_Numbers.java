@@ -20,7 +20,7 @@ public class S_Sum_of_Consecutive_Odd_Numbers {
                 y = temp;
 
             }
-            for (int j = x + 1; j < y; j++) {
+            for (int j = x + 1; j < y; j++) { 
                 if (j % 2 != 0) {
                     sum += j;
                 }

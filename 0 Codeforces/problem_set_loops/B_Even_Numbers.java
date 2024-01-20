@@ -2,7 +2,7 @@ import java.util.*;
 
 public class B_Even_Numbers {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) {  
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
 

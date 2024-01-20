@@ -16,7 +16,7 @@ public class N_Numbers_Histogram {
                 System.out.print(s);
             }
 
-            System.out.println();
+            System.out.println(); 
         }
 
         sc.close();

@@ -17,7 +17,7 @@ public class L_GCD {
             n2 = rem;
         }
 
-        System.out.println(n1);
+        System.out.println(n1); 
 
     }
 }

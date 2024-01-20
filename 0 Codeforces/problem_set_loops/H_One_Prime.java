@@ -17,7 +17,7 @@ public class H_One_Prime {
             System.out.println("YES");
         } else {
             System.out.println("NO");
-        }
+        } 
 
         sc.close();
 

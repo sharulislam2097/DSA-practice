@@ -11,7 +11,8 @@ public class F_Multiplication_table {
             System.out.println(N + " * " + i + " = " + N * i);
         }
 
-        sc.close();
+        sc.close(); 
+        
     }
 
 }

@@ -15,7 +15,7 @@ public class O_Pyramid {
             System.out.println();
         }
 
-        sc.close();
+        sc.close(); 
 
     }
 }

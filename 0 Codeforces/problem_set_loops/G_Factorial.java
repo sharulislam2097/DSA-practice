@@ -19,7 +19,7 @@ public class G_Factorial {
                     factorial = factorial * j;
 
                 }
-                System.out.println(factorial);
+                System.out.println(factorial); 
             }
 
         }

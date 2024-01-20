@@ -16,7 +16,7 @@ public class Q_Digits {
                 n = n / 10;
             } while (n != 0);
 
-            System.out.println();
+            System.out.println(); 
         }
 
         sc.close();

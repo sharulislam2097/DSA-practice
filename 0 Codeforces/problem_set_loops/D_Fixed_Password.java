@@ -12,7 +12,7 @@ public class D_Fixed_Password {
             if (x == 1999) {
                 System.out.println("Correct");
                 break;
-            } else {
+            } else { 
                 System.out.println("Wrong");
             }
         }

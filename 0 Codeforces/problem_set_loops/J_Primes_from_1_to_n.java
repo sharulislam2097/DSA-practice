@@ -19,7 +19,7 @@ public class J_Primes_from_1_to_n {
 
             }
             if (count == 0) {
-                System.out.print(i + " ");
+                System.out.print(i + " "); 
             }
         }
 

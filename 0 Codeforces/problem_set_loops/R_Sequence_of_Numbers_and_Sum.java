@@ -18,7 +18,7 @@ public class R_Sequence_of_Numbers_and_Sum {
 
             System.out.println();
 
-            n = sc.nextInt();
+            n = sc.nextInt(); 
             m = sc.nextInt();
 
         }

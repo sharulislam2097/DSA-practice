@@ -29,6 +29,6 @@ public class S_Sum_of_Consecutive_Odd_Numbers {
             System.out.println(sum);
 
         }
-
+ sc.close();
     }
 }

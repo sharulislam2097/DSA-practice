@@ -6,7 +6,7 @@ public class I_Palindrome {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
 
-        int temp = n;
+        int temp =n;
 
         int rev = 0, digit;
 
@@ -20,7 +20,7 @@ public class I_Palindrome {
         if (rev == n) {
             System.out.println(rev);
             System.out.println("YES");
-        } else {
+        } else{
             System.out.println(rev);
             System.out.println("NO");
         }

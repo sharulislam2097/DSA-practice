@@ -12,9 +12,9 @@ public class counting_sort {
             count[arr[i]]++;
         }
 
-        // {1, 4, 1, 3, 2, 4, 3, 7}  -arr  j
-        // {0, 2, 1, 2, 2, 0, 0, 1}  -count i
-        // {1, 1, 2, 3, 3, 4, 4, 7}  -sorted
+        // {1, 4, 1, 3, 2, 4, 3, 7} -arr j
+        // {0, 2, 1, 2, 2, 0, 0, 1} -count i
+        // {1, 1, 2, 3, 3, 4, 4, 7} -sorted
 
         // sorting
         int j = 0;
@@ -23,7 +23,9 @@ public class counting_sort {
                 arr[j] = i;
                 j++;
                 count[i]--;
+
             }
+
         }
 
         for (int i = 0; i < count.length; i++) {

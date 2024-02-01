@@ -3,11 +3,12 @@ public class spiral_matrix {
     public static void printSpiral(int matrix[][]) {
 
         int startRow = 0;
-        int startCol = 0;
         int endRow = matrix.length - 1;
+        int startCol = 0;
         int endCol = matrix[0].length - 1;
 
         while (startRow <= endRow && startCol <= endCol) {
+
             // top
             for (int j = startCol; j <= endCol; j++) {
                 System.out.print(matrix[startRow][j] + " ");
@@ -17,13 +18,11 @@ public class spiral_matrix {
             for (int i = startRow + 1; i <= endRow; i++) {
                 System.out.print(matrix[i][endCol] + " ");
             }
-
             // bottom
             for (int j = endCol - 1; j >= startCol; j--) {
                 if (startRow == endRow) {
                     break;
                 }
-
                 System.out.print(matrix[endRow][j] + " ");
             }
 
@@ -36,13 +35,10 @@ public class spiral_matrix {
             }
 
             startCol++;
-            startRow++;
             endCol--;
+            startRow++;
             endRow--;
-
         }
-
-        System.out.println();
 
     }
 

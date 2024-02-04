@@ -27,5 +27,7 @@ public class createString {
         System.out.println(fullname.charAt(1));
 
         printallLetter(str);
+
+        sc.close();
     }
 }

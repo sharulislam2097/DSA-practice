@@ -9,6 +9,8 @@ public class practice_problem2 {
             }
             System.out.println();
         }
+
+        // print sum of second row elements
         int sum =0 ;
         for(int j=0 ; j<matrix.length; j++){
             sum += matrix[1][j];

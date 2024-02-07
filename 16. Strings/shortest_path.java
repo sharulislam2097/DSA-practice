@@ -1,36 +1,43 @@
 public class shortest_path {
 
     public static float shortestPath(String path){
-
-        int x=0 , y=0 ; 
+        int x1=0 , y1=0 ,x2 =0 ,y2 =0;
 
         for(int i=0 ; i<path.length() ; i++){
-            char dir=path.charAt(i);
+            char direction = path.charAt(i);
 
-            if(dir == 'S'){
-                y--; 
+            if(direction =='N'){
+                y2++;
             }
-            else if(dir == 'N'){
-                y++;
+            else if(direction == 'S'){
+                y2--;
             }
-            else if(dir == 'W'){
-                x--;
+            else if(direction == 'E'){
+                x2++;
             }
             else{
-                x++;
+                x2--;
             }
         }
 
-        int x2 = x*x; 
-        int y2= y*y ; 
-        return (float)(Math.sqrt(x2+y2));
+        int x =(x2-x1)*(x2-x1);
+        int y=(y2-y1)*(y2-y1);
 
+        return (float)Math.sqrt(x+y);
+
+
+        
+        
     }
+
     
 
     public static void main(String[] args){
+
         String path = "WNEENESENNN";
 
         System.out.println(shortestPath(path));
+      
+
     }
 }

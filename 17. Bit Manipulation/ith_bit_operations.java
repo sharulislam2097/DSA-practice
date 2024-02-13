@@ -26,11 +26,15 @@ public class ith_bit_operations {
 
     public static int updateIthBit(int n, int i , int newBit){
 
-        if(newBit == 0){
-           return  clearithBit(n, i);
-        }else{
-           return setBit(n, i);
-        }
+        // if(newBit == 0){
+        //    return  clearithBit(n, i);
+        // }else{
+        //    return setBit(n, i);
+        // }
+
+        n=clearithBit(n, i);
+        int bitmask = newBit<<i;
+        return n| bitmask;
 
     }
 

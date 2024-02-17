@@ -1,16 +1,21 @@
 public class complement_of_base_10_integer_1009 {
 
     public static int complimentofn(int n ){
-        int i=3 ; 
-        int b = i<<i-1;
-
-        System.out.println(b);
+        int m=n ; 
+        int mask =0 ;
 
         if(n==0){
-            return 0;
+            return 1;
         }
 
-        return (~n) |  b ;
+        while( m!=0){
+            mask=(mask<<1)|1;
+
+            m = m>>1;
+        }
+        int ans = (~n) & mask;
+
+        return ans;
     }
 
     public static void main(String[] args){

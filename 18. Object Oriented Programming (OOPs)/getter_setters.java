@@ -3,7 +3,7 @@ public class getter_setters {
     public static void main(String[] args) {
 
         // created object using Pen class
-        Pen p1 = new Pen();
+        Pens p1 = new Pens();
 
         p1.setColor("BLUE");
         p1.setTip(6);
@@ -16,7 +16,7 @@ public class getter_setters {
 }
 
 // a blueprint of a pen / it is like template
-class Pen {
+class Pens {
     private String color;
     private int tip;
 

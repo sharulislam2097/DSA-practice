@@ -1,6 +1,6 @@
 public class Constructors {
     public static void main(String[] args) {
-
+        //objects
         Student s1 = new Student();
         Student s2= new Student ("sharul");
         Student s3= new Student(546);
@@ -17,14 +17,14 @@ public class Constructors {
         int roll;
 
         // non parameterized constructor
-        Student() {
+        Student() {   //s1
             System.out.println("constructor is called");
         }
         // parameterized constructor
-        Student(String name) {
+        Student(String name) {  //s2
             this.name = name;
         }
-        Student(int roll){
+        Student(int roll){  //s3
             this.roll =roll;
         }
     }

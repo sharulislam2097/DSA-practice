@@ -1,4 +1,6 @@
-public class Inheritance_type {
+// multi level inheritance
+
+public class Inheritance2 {
     public static void main(String[] args) {
 
         Dog dobby = new Dog();

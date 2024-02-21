@@ -14,7 +14,7 @@ public class Inheritance4 {
 }
 
 // base class
-class Animals{
+class Animal4{
     String color ; 
 
     void eat(){
@@ -25,25 +25,25 @@ class Animals{
     }
 }
 
-class Fish extends Animals{
+class Fish4 extends Animal4{
 
     void swim(){
         System.out.println("swims");
     }
 }
 
-class Tuna extends Fish{
+class Tuna extends Fish4{
     String type;
 }
 
-class Shark extends Fish{
+class Shark extends Fish4{
 
     void attaks(){
         System.out.println("attacks");
     }
 }
 
-class Bird extends Animals{
+class Bird extends Animal4{
 
     void fly(){
         System.out.println("flies");
@@ -54,25 +54,25 @@ class Peacock extends Bird{
     String feather ;
 }
 
-class Mamal extends Animals{
+class Mamal4 extends Animal4{
 
     void walk(){
         System.out.println("walks");
     }
 }
 
-class Dog extends Mamal{
+class Dog extends Mamal4{
     String breed ;
 }
 
-class Cat extends Mamal {
+class Cat extends Mamal4 {
 
     void scratch(){
         System.out.println("cat scratches");
     }
 }
 
-class Human extends Mamal{
+class Human extends Mamal4{
 
     void fights(){
         System.out.println("human fights");

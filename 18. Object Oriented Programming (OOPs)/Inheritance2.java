@@ -16,7 +16,7 @@ public class Inheritance2 {
 
 //base class
 
-class Animal{
+class Animal2{
     String color ;
 
     void eat(){
@@ -27,10 +27,10 @@ class Animal{
     }
 }
 
-class Mammal extends Animal{
+class Mammal1 extends Animal2{
     int legs;
 }
 
-class Dog extends Mammal{
+class Dog extends Mammal1{
     String breed;
 }

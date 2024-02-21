@@ -1,7 +1,7 @@
 public class Inheritance1 {
 
     public static void main(String[] args) {
-        Fish shark =new Fish();
+        Fish1 shark =new Fish1();
 
         shark.eat();
 
@@ -9,7 +9,7 @@ public class Inheritance1 {
 }
 
 // base class
-class Animals {
+class Animal1 {
     String color;
 
     void eat() {
@@ -22,7 +22,7 @@ class Animals {
 }
 
 //derived class
-class Fish extends Animals{
+class Fish1 extends Animal1{
     int fins;
 
     void swim(){

@@ -3,9 +3,9 @@ public class Inheritance3 {
 
     public static void main(String[] args){
 
-        Fish fishy = new Fish();
+        Fish3 fishy = new Fish3();
         Bird birdy = new Bird();
-        Mammal human = new Mammal();
+        Mammal3 human = new Mammal3();
 
         fishy.eat();
         birdy.breathe();
@@ -17,7 +17,7 @@ public class Inheritance3 {
 }
 
 // base class 
-class Animals{
+class Animal3{
     String color ;
 
     void eat(){
@@ -28,19 +28,19 @@ class Animals{
     }
 }
 
-class Fish extends Animals{
+class Fish3 extends Animal3{
     void swim(){
         System.out.println("swims");
     }
 }
 
-class Bird extends Animals{
+class Bird extends Animal3{
     void fly(){
         System.out.println("flies");
     }
 }
 
-class Mammal extends Animals{
+class Mammal3 extends Animal3{
     void walk(){
         System.out.println("walks");
     }

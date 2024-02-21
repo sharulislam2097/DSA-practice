@@ -1,14 +1,14 @@
 public class Static_keyword {
     public static void main(String[] args) {
         Student s1 = new Student();
-        s1.schoolName = "JVMC";
+        s1.schoolName = "JMV";
 
         Student s2 = new Student();
 
         System.out.println(s2.schoolName);
 
         Student s3 = new Student();
-        s3.schoolName = "Mula";
+        s3.schoolName = "ABC";
         System.out.println(s2.schoolName);
 
 
@@ -20,7 +20,7 @@ class Student {
     int roll;
 
     //static function
-    static int percentageCal(int phy, int math, int chem) {
+    static int returnPercentage(int phy, int math, int chem) {
         return (phy + math + chem) / 3;
     }
 

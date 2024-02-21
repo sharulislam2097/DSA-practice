@@ -1,7 +1,7 @@
 public class Constructors {
     public static void main(String[] args) {
         //objects
-        Student s1 = new Student();
+        // Student s1 = new Student();
         Student s2= new Student ("sharul");
         Student s3= new Student(546);
 

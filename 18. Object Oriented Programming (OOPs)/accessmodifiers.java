@@ -9,6 +9,7 @@ public class accessmodifiers {
         myacc.setPassword("mypasswordisnull");
 
         System.out.println(myacc.username);
+        System.out.println(myacc.password);
     }
     
 }
@@ -16,7 +17,8 @@ public class accessmodifiers {
 
 class BankAccount{
     public String username;
-    private String password ;
+    //private 
+     String password ;
 
     
 

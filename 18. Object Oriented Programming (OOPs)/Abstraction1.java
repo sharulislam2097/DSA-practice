@@ -11,10 +11,13 @@ public class Abstraction1 {
         c.eat();
         c.walk();
 
-        System.out.println(h.color);
+        
 
         Mustang m = new Mustang();
         //animal -> horse -> mustang
+
+        m.color="black";
+        System.out.println(m.color);
     }
 
 }

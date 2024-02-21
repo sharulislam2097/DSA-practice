@@ -2,6 +2,10 @@ public class Interfaces {
 public static void main(String[] args) {
     Queen q = new Queen();
     q.moves();
+    Rook r = new Rook();
+    r.moves();
+    King k= new King();
+    k.moves();
     
 }
     

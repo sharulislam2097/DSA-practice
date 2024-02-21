@@ -43,14 +43,14 @@ class Shark extends Fish4{
     }
 }
 
-class Bird extends Animal4{
+class Bird4 extends Animal4{
 
     void fly(){
         System.out.println("flies");
     }
 }
 
-class Peacock extends Bird{
+class Peacock extends Bird4{
     String feather ;
 }
 
@@ -61,7 +61,7 @@ class Mamal4 extends Animal4{
     }
 }
 
-class Dog extends Mamal4{
+class Dog4 extends Mamal4{
     String breed ;
 }
 

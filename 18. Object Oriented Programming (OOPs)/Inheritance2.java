@@ -3,7 +3,7 @@
 public class Inheritance2 {
     public static void main(String[] args) {
 
-        Dog dobby = new Dog();
+        Dog2 dobby = new Dog2();
 
         dobby.eat();
         dobby.legs=4;
@@ -27,10 +27,10 @@ class Animal2{
     }
 }
 
-class Mammal1 extends Animal2{
+class Mammal2 extends Animal2{
     int legs;
 }
 
-class Dog extends Mammal1{
+class Dog2 extends Mammal2{
     String breed;
 }

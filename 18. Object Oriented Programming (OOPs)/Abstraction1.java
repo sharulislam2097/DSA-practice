@@ -2,58 +2,75 @@
 
 public class Abstraction1 {
 
-    public static void main(String[] args){
-
-        Horse h = new Horse();
+    public static void main(String[] args) {
+        Horse h= new Horse();
         h.eat();
         h.walk();
-        
 
-        Chicken c= new Chicken();
+        Chicken c = new Chicken();
         c.eat();
         c.walk();
 
-        
+        System.out.println(h.color);
 
+        Mustang m = new Mustang();
+        //animal -> horse -> mustang
     }
-    
+
 }
 
-abstract class Animal{
+abstract class Animal {
     String color;
-    //constructor
+    //constractor 
     Animal(){
         System.out.println("animal constructor called");
     }
-    //non abstract method 
+
+
+    // non abstract method
     void eat() {
-        System.out.println("animal eats");
+        System.out.println("eats");
     }
 
+    // abstract method only declare no implement
     abstract void walk();
+
 }
 
-class Horse extends Animal{
-
+// sub class
+class Horse extends Animal {
+    //constructor
     Horse(){
         System.out.println("horse constructor called");
     }
 
     void changeColor(){
-        color = "dark brown";
+        color ="dark brown";
     }
-
-    void walk(){
-        System.out.println("walks like horse");
+    // sub class implements the walk
+    void walk() {
+        System.out.println("walks on four legs");
     }
 
 }
+// sub class of horse
+class Mustang extends Horse{
 
-class Chicken extends Animal {
-    Chicken(){
-        System.out.println("chicken constructor called");
+    //constructor
+    Mustang(){
+        System.out.println("Mustang constructor is called");
     }
-    void walk(){
-        System.out.println("walks on 2 legs");
+}
+
+// sub class
+class Chicken extends Animal {
+
+    void changeColor(){
+        color = "yellow";
+        
+    }
+
+    void walk() {
+        System.out.println("walks on two legs");
     }
 }

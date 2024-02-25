@@ -1,3 +1,4 @@
+//problem no 1
 public class Print_nto1 {
     public static void printDecreasing(int n){
         if(n==1){

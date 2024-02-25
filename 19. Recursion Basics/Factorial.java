@@ -1,3 +1,4 @@
+// problem no 3
 import java.util.*;
 public class Factorial {
     public static int solve(int n){

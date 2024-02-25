@@ -1,5 +1,4 @@
-
-
+// extra problem
 public class Check_palindrome {
     public static boolean palindrome(String s , int left , int right){
         if(left>=right){

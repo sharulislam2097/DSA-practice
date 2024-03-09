@@ -2,11 +2,12 @@
 public class Print_1ton {
     public static void printIncreasing(int n){
        if(n==1){
-           System.out.print(n);
+           System.out.print(1+" ");
            return;
        }
        printIncreasing(n-1);
-       System.out.print(n);
+        System.out.print(n+" ");
+
 
     }
 
